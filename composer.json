@@ -1,0 +1,23 @@
+{
+    "require": {
+        "dragonmantank/cron-expression": "^3.3"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "^10",
+        "phpstan/phpstan": "^1.10",
+        "nunomaduro/phpinsights": "^2.11"
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "Scheduler\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

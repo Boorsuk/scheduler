@@ -1,0 +1,11 @@
+.env
+
+/vendor
+
+.phpunit*
+
+composer.lock
+
+main.php
+
+/tests/tmp/*
